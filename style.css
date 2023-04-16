@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #ff914c;
+    font-family: Helvetica, sans-serif;
+    font-size: 20 ;
+    padding: 20px;
+    margin-bottom: 5px;
+    position: sticky;
+    top: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.primeiro-titulo{
+    font-family: Helvetica, sans-serif;
+    font-size: 32 bold;
+}
+
+p{
+  font-family: Helvetica, sans-serif;  
+  font-size: 24 bold;
+}
+
+.container-section1{
+    background-color: #e8ecef;
+    margin-bottom: 5px;
+}
+
+#sobre-a-empresa{
+    background-color: #e8ecef;
+    margin-bottom: 5px;
+}
+
+#nossos-servicos{
+    background-color: #e8ecef;
+    margin-bottom: 5px;
+}
+
+.conta-pj{
+    background-color: #ff914c;
+    margin-bottom: 5px;
+}
+
+.cartao-black{
+    background-color: #e8ecef;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: #e8ecef;
+    display: flex;
+    align-items: center;
+}
+
