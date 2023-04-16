@@ -1,0 +1,40 @@
+Header
+background - ff914c
+fonte - inria serif, 20, regular, black
+
+main
+section1
+background - e8ecef
+titulo - 32 bold black
+paragrafos - 24 bold black
+nome do banco - ffad4c 24 bold
+
+section2
+background - e8ecef
+titulo - 32 bold black
+textos - 20 regular black
+textos-caixa-de-duvidas - 20 regular black
+background - caixa de duvidas - ff904c
+
+section3
+background - e8ecef
+titulo - 32 bold ffad4c
+textos - 24 bold black
+textos-caixa de cartão - 20 regular black
+background-caixa de cartão - ff904c
+
+section4
+background - ff904c
+titulo - 32 bold branco
+outros textos - 24 bold branco
+
+section5
+background - e8ecef
+titulo - 32 bold ff904c/ black
+outros textos - 24 bold black
+
+
+
+
+
+
