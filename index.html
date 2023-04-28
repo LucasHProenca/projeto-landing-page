@@ -6,116 +6,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F4BANK</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="container-header">
-        <span>F4BANK♥</span>
-        <span><a href="#sobre-a-empresa">Sobre a Empresa</a></span>
-        <span><a href="#nossos-servicos">Nossos serviços</a></span>
-        <span><a href="#contato">Contatos</a></span>
+
+        <span class="logo-empresa"><a href="#">F4BANK♥</a></span>
+        <span class="texto-cabeçalho"><a href="#sobre-a-empresa">Sobre a Empresa</a></span>
+        <span class="texto-cabeçalho"><a href="#nossos-servicos">Nossos Serviços</a></span>
+        <span class="texto-cabeçalho"><a href="#contato">Contatos</a></span>
+
     </header>
-    <main>
+    <main class="conteudo">
         <section class="container-section1">
-            <img src="./midia/foto1 4bank.jpg" alt="garota propaganda F4BANK" width="30%">
-            <h1><strong>Quer fazer seu dinheiro trabalhar para você?</strong></h1>
-            <p>Aqui nós valorizamos cada centavo como se fosse nosso,
-                por que acreditamos que para ter sucesso é necessário
-                ter conhecimento e um bom planejamento.
-            </p>
-            <p><strong>"Investir em conhecimento rende sempre os melhores juros."</strong></p>
-            <p><strong>Não deixe seu futuro para depois,
-                    comece sua jornada junto a um banco que pensa em você.
-                </strong></p>
-            <p>F4BANK♥</p>
+            <!-- <img class="primeira-imagem" src="./midia/foto1 4bank.jpg" alt="garota propaganda F4BANK"> -->
+            <article class="primeiro-article">
+                <h1 class="primeiro-titulo"><strong>Quer fazer seu dinheiro trabalhar para você?</strong></h1>
+                <p class="primeiro-paragrafo"><strong>Aqui nós valorizamos cada centavo como se fosse nosso,
+                        porque acreditamos que para
+                        ter sucesso é necessário
+                        ter conhecimento e um bom planejamento.</strong>
+                </p>
+                <p class="segundo-paragrafo"><strong>"Investir em conhecimento rende sempre os melhores juros."</strong>
+                </p>
+                <p class="terceiro-paragrafo"><strong>Não deixe seu futuro para depois,
+                        comece sua jornada junto
+                        à um banco que pensa em você.
+                    </strong></p>
+                <p class="quarto-paragrafo">F4BANK♥</p>
+            </article>
         </section>
         <section id="sobre-a-empresa">
-            <p><strong>Estamos no mercado a mais de 10 anos,
-                    buscando sempre melhorar e
-                    oferecer o melhor para você.</strong>
-            </p>
-            <p class="bloco1">Tire suas duvidas aqui
-                <span class="inserir-duvida">Insira sua duvida aqui</span>
-                <button class="button-enviar1"> Enviar </button>
-            </p>
-            <img src="./midia/f4bank.avif" alt="logo f4bank" width="30%">
+            <article class="segundo-article">
+                <p class="primeiro-paragrafo-section2"><strong>Estamos no mercado há mais de 10 anos,
+                        buscando sempre melhorar e
+                        oferecer o melhor para você.</strong>
+                </p>
+            </article>
+            <form class="primeiro-formulario">
+                <h5>Ainda tem dúvidas? Entre em contato</h5>
+
+                <input type="text" id="nome" placeholder="Digite seu nome" name="nome" required>
+                <label for="nome"></label>
+
+                <input type="email" id="email" placeholder="Digite seu e-mail" name="email" required>
+                <label for="email"></label>
+
+                <textarea name="areaDeTexto" id="areaDeTexto" cols="30" rows="10" required
+                    placeholder="Nós sabemos que podemos melhorar, diga-nos como."></textarea>
+
+                <input type="submit" class="enviar" onclick="enviar()" value="Enviar">
+            </form>
+            <img class="segunda-imagem" src="./midia/f4bank.avif" alt="logo f4bank">
         </section>
         <section id="nossos-servicos">
-            <h1>
-                <strong>
-                    Conheça nosso Cartão de Crédito e a Nossa Conta Corrente Digital
-                </strong>
-            </h1>
-            <p>
-                <strong>Sem taxas e anuidade, por que por aqui, o foco sempre será você.
+            <article class="terceiro-article">
+                <h2 class="primeiro-h2">
+                    <strong>
+                        Conheça nosso Cartão de Crédito
+                        </br>
+                        e a Nossa Conta Corrente Digital
+                    </strong>
+                </h2>
+                <p class="paragrafo-nossos-servicos">
+                    <strong>Sem taxas e anuidade, porque por aqui,
+                        </br>
+                        o foco sempre será você.
 
-                </strong>
-            </p>
-            <p>
-                Saiba mais →
-            </p>
-            <p class="bloco2">Peça já seu cartão
-                <span class="inserir-cpf">Insira seu cpf aqui</span>
-                <button class="button-enviar2"> Enviar </button>
-            </p>
-            <img src="./midia/foto2 4bank.jpg" alt="maluco de oculos apontando pro melhor banco" width="30%">
+                    </strong>
+                </p>
+                <p class="saiba-mais">
+                    <strong><a href="https://www.labenu.com.br/curso-de-programacao-web-full-stack-integral" target="_blank">
+                        Saiba mais →
+                    </a>
+                    </strong>
+                </p>
+            </article>
+            <form class="segundo-formulario">
+                <h6>Peça já seu cartão</h6>
+
+                <input type="text" id="nome-pessoa" placeholder="Digite seu nome" name="nome" required>
+                <label for="nome"></label>
+
+                <input type="email" id="email-pessoa" placeholder="Digite seu e-mail" name="email" required>
+                <label for="email"></label>
+
+                <input type="text" id="cpf" placeholder="Digite seu cpf" name="cpf" required>
+                <label for="cpf"></label>
+
+                <input type="submit" class="enviar" onclick="pedirCartao()" value="Enviar">
+            </form>
+            <img class="terceira-imagem" src="./midia/foto2 4bank.jpg"
+                alt="garoto propagando f4bank">
         </section>
-        <section>
-            <h1>
-                <strong>
-                    Conta PJ
-                </strong>
-            </h1>
-            <p>
-                <strong>
-                    Nós acreditamos que somente
-                    uma pessoa pode ter controle
-                    da sua vida financeira: Você.
-                </strong>
-                </br>
-                <strong>
-                    Especialmente pensada para você
-                    que sonha em ser seu próprio chefe.
-                </strong>
-            </p>
-            <p>
-                Saiba mais →
-            </p>
-            <img src="./midia/conta pj f4bank.jpg" alt="conta-pj" width="30%">
+        <section class="conta-pj">
+            <article class="quarto-article">
+                <h3 class="primeiro-h3"><Strong>
+                        Conta PJ
+                    </Strong>
+                </h3>
+                <p class="primeiro-paragrafo-contapj">
+                    <strong>
+                        Nós acreditamos que somente
+                        </br>
+                        uma pessoa pode ter controle
+                        </br>
+                        da sua vida financeira: Você.
+                        </br>
+                        Especialmente pensada para você
+                        </br>
+                        que sonha em ser seu próprio chefe.
+                    </strong>
+                </p>
+                <p class="segundo-paragrafo-contapj">
+                    <strong> <a href="https://www.labenu.com.br/curso-de-programacao-web-full-stack-integral" target="_blank">
+                        Saiba mais →
+                    </a>
+                    </strong>
+                </p>
+            </article>
+             <img class="penultima-imagem" src="./midia/conta pj f4bank.jpg" alt="conta-pj"> 
         </section>
-        <section>
-            <h1>
-                <strong>
-                    The orange is The New Black
-                </strong>
-            </h1>
-            <p>
-                <strong>
-                    Conheça nosso cartão de crédito sem limite,
-                    feito espcialmente para você
-                    que gosta de aproveitar a vida ao maximo.
-                </strong>
-            </p>
-            <p>
-                <strong>
-                    Clique e conheça →
-                </strong>
-            </p>
-            <img src="./midia/cartão de credito black f4bank.avif" alt="cartão-de-crédito-black" width="30%">
+        <section class="cartao-black">
+            <article class="quinto-article">
+                <h4 class="primeiro-h4">
+                    <strong>
+                        The orange is The New Black
+                    </strong>
+                </h4>
+                <p class="primeiro-p-cartao">
+                    <strong>
+                        Conheça nosso cartão de crédito sem limite,
+                        </br>
+                        feito especialmente para você
+                        </br>
+                        que gosta de aproveitar a vida ao máximo.
+                    </strong>
+                </p>
+                <p class="segundo-p-cartao">
+                    <strong><a href="https://www.labenu.com.br/curso-de-programacao-web-full-stack-integral" target="blank
+                        ">Clique e conheça →</a>  
+                    </strong>
+                </p>
+            </article>
+            <img class="ultima-imagem" src="./midia/cartão de credito black f4bank.avif" alt="cartão-de-crédito-black">
         </section>
     </main>
     <footer id="contato">
-        <p>
-            <a href="https://github.com/VishLucasHenrique/projeto-landing-page" target="_blank"><img
-                    src="./midia/GITHUB-LOGO.png" alt="GITHUB-LOGO" width="5%"></a>
-            <a href="https://www.linkedin.com/in/lucas-proen%C3%A7a-512650106/" target="blank"><img
-                    src="./midia/linkedin-logo.png" alt="linkedin-logo" width="3%"></a>
-            <a href="https://www.instagram.com/_lukehp/" target="_blank"><img src="./midia/instagram logo.png"
-                    alt="instagram-logo" width="3%"></a>
-            <a href="https://www.facebook.com/LucasHProenca" target="_blank"><img src="./midia/facebook logo.png"
-                    alt="facebook-logo" width="3%"></a>
-            <a href="#" target="_blank"><img src="./midia/email logo.avif" alt="email-logo" width="3%"></a>
-        </p>
+        <p class="fale-com-a-gente">Fale conosco</p>
+
+        <div class="redes-sociais">
+            <a class="icones" href="https://github.com/VishLucasHenrique/projeto-landing-page" target="_blank"><img
+                    src="./midia/github-logoteste.png" alt="GITHUB-LOGO"></a>
+            <a class="icones" href="https://www.linkedin.com/in/lucas-proen%C3%A7a-512650106/" target="blank"><img
+                    src="./midia/linkedin-logo.png" alt="linkedin-logo"></a>
+            <a class="icones" href="https://www.instagram.com/_lukehp/" target="_blank"><img
+                    src="./midia/instagram logo.png" alt="instagram-logo"></a>
+            <a class="icones" href="https://www.facebook.com/LucasHProenca" target="_blank"><img
+                    src="./midia/facebook logo.png" alt="facebook-logo"></a>
+            <a class="icones" href="https://accounts.google.com/v3/signin/identifier?dsh=S-787958717%3A1682547818139924&authuser=0&continue=https%3A%2F%2Fmail.google.com&ec=GAlAFw&hl=pt-BR&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession" 
+            target="_blank"><img src="./midia/email logo.avif" alt="email-logo"></a>
+
+
+        </div>
     </footer>
 
 </body>
