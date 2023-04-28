@@ -1,0 +1,18 @@
+O banco F4BANK foi pensado para ser a melhor experiência para o usuário, com isso oferecemos
+uma série de serviços visando atender à todos, desde quem está começando a organizar agora
+sua vida financeira, quanto quem já está no mercado a muito tempo.
+
+A ultima branch do projeto foi a "Estilização", por motivos de empolgação do desenvolvedor,
+mas não se engane, ele está completíssimo, e também conta com um adicional aos requerimentos
+que é a opção para ser acessado em telas intermediárias, como tablets por exemplo.
+
+A parte inicial do projeto foi projetado pensando em telas maiores que 800 pixels até um máximo
+de 1280 pixels.
+Tendo em vista atender ao máximo de dispositivos possíveis, também foram adicionadas duas outras
+formatações, entre 481 e 800 pixels de largura, para tablets e entre 250 até 480 pixels de largura
+para celulares smartphones.
+
+Link do Surge: 
+
+Print das telas: 
+
