@@ -1,6 +1,6 @@
 const enviar = () => {
 
-    let nome = document.getElementById("nome");
+    let nome = document.getElementById("nome")
     let email = document.getElementById("email")
     let sugestao = document.getElementById("areaDeTexto")
 
