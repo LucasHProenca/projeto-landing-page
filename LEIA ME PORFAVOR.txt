@@ -2,17 +2,34 @@ O banco F4BANK foi pensado para ser a melhor experiência para o usuário, com i
 uma série de serviços visando atender à todos, desde quem está começando a organizar agora
 sua vida financeira, quanto quem já está no mercado a muito tempo.
 
-A ultima branch do projeto foi a "Estilização", por motivos de empolgação do desenvolvedor,
-mas não se engane, ele está completíssimo, e também conta com um adicional aos requerimentos
-que é a opção para ser acessado em telas intermediárias, como tablets por exemplo.
+Por motivos de empolgação do desenvolvedor, a maior parte do trabalho foi desenvolvido na branch
+"estilização" mas não se engane, ele está completíssimo, e também conta com um adicional aos 
+requerimentos que é a opção para ser acessado em telas intermediárias, como tablets por exemplo.
 
-A parte inicial do projeto foi projetado pensando em telas maiores que 800 pixels até um máximo
+A parte inicial do projeto foi realizada pensando em telas maiores que 800 pixels até um máximo
 de 1280 pixels.
 Tendo em vista atender ao máximo de dispositivos possíveis, também foram adicionadas duas outras
-formatações, entre 481 e 800 pixels de largura, para tablets e entre 250 até 480 pixels de largura
+formatações, entre 481 e 800 pixels de largura para tablets e entre 250 até 480 pixels de largura
 para celulares smartphones.
 
-Link do Surge: 
+O cabeçalho transmite ao usuário uma sensação de botão clicado ao escolher um dos tópicos contidos 
+no mesmo e, redireciona para alguma parte específica do site, todos os ícones de redes sociais
+redirecionam para a mesma, os textos "Saiba-mais" e "Clique e conheça" redirecionam para a página
+da Labenu, e os botões dos formulários estão atrelados a uma lógica JS, retornam uma mensagem de 
+acordo com quais informações foram ou não inseridas pelo usuário e, após essa mensagem, limpa 
+automaticamente os campos do formulário.
+
+Link do Surge: tricky-girl.surge.sh
 
 Print das telas: 
+
+Desktop - https://imgur.com/a/zfACUUX
+
+Mobile:
+
+Samsung S10 Plus - https://imgur.com/a/AMbcymr
+Samsung A22 - https://imgur.com/a/do3ow2I
+Iphone 8 - https://imgur.com/a/EjJsMgI
+
+
 
